@@ -6,6 +6,19 @@
 *.ko
 *.obj
 *.elf
+*.crf
+*.htm
+*.lnp
+
+GD32/
+GD32F303CCT6/
+UnProvide/
+unsupport*/
+Listings/
+*.uvguix.*
+*.uvoptx
+*.scvd
+*.lst
 
 # Linker output
 *.ilk
