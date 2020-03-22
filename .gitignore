@@ -15,10 +15,14 @@ GD32F303CCT6/
 UnProvide/
 unsupport*/
 Listings/
+DebugConfig/
 *.uvguix.*
 *.uvoptx
 *.scvd
 *.lst
+*.dep
+*.iex
+*.axf
 
 # Linker output
 *.ilk

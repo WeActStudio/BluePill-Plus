@@ -79,6 +79,17 @@ void USB_Reset(void)
 	}
 	__HAL_RCC_CLEAR_RESET_FLAGS();
 }
+
+void LED_Blink(uint32_t delay)
+{
+	HAL_GPIO_WritePin(PB2_GPIO_Port,PB2_Pin,GPIO_PIN_SET);
+	HAL_Delay(delay - 1);
+	HAL_GPIO_WritePin(PB2_GPIO_Port,PB2_Pin,GPIO_PIN_RESET);
+	if(HAL_GPIO_ReadPin(KEY_GPIO_Port,KEY_Pin) != GPIO_PIN_SET)
+		HAL_Delay(500-1);
+	else
+		HAL_Delay(100-1);
+}
 /* USER CODE END 0 */
 
 /**
@@ -115,10 +126,7 @@ int main(void)
 	{
 		while(1)
 		{
-			HAL_GPIO_WritePin(PB2_GPIO_Port,PB2_Pin,GPIO_PIN_SET);
-			HAL_Delay(2);
-			HAL_GPIO_WritePin(PB2_GPIO_Port,PB2_Pin,GPIO_PIN_RESET);
-			HAL_Delay(500);			
+			LED_Blink(2);
 		}
 	}
 	MX_USB_DEVICE_Init();
@@ -131,10 +139,7 @@ int main(void)
     /* USER CODE END WHILE */
 
     /* USER CODE BEGIN 3 */
-		HAL_GPIO_WritePin(PB2_GPIO_Port,PB2_Pin,GPIO_PIN_SET);
-		HAL_Delay(5);
-		HAL_GPIO_WritePin(PB2_GPIO_Port,PB2_Pin,GPIO_PIN_RESET);
-		HAL_Delay(500);
+		LED_Blink(5);
   }
   /* USER CODE END 3 */
 }

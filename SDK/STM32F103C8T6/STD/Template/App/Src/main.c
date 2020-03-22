@@ -27,9 +27,9 @@ int main(void)
 	while(1)
 	{
 		GPIO_SetBits(PB2_GPIO_Port,PB2_Pin);
-		delay(10/SysTick_Tick);
+		delay(10/SysTick_Tick);  // Delay 10ms
 		GPIO_ResetBits(PB2_GPIO_Port,PB2_Pin);
-		delay(500/SysTick_Tick);
+		delay(500/SysTick_Tick); // Delay 500ms
 	}
 }
 
