@@ -1,6 +1,6 @@
 **Note: *WAVGAT Official Store*, *WAVGAT authorization Store* sold our counterfeit, that is, pirated, without our Logo on the back, the quality of these pirated chips can not be guaranteed, the production quality is not up to standard, factory inspection is functory, customers will have all kinds of baffle problems when using, please carefully check!!**
 
-**注意：*wavgat旗舰店*，*发明家电子科技*出售了我们的仿造品，也就是盗版，背面没有我们的Logo，这些盗版芯片质量不能保证，生产质量不过关，出厂检测敷衍，客户使用的时候会出现各种莫名其妙的问题，请大家仔细甄别！！！**
+**注意：*wavgat旗舰店*，*发明家电子科技* 出售了我们的仿造品，也就是盗版，背面没有我们的Logo，这些盗版芯片质量不能保证，生产质量不过关，出厂检测敷衍，客户使用的时候会出现各种莫名其妙的问题，请大家仔细甄别！！！**
 
 # BluePill Plus
 > STM32F103C8T6
