@@ -10,8 +10,8 @@
 *.htm
 *.lnp
 
-GD32/
-GD32F303CCT6/
+#GD32/
+#GD32F303CCT6/
 UnProvide/
 unsupport*/
 Listings/
@@ -23,7 +23,7 @@ DebugConfig/
 *.dep
 *.iex
 *.axf
-
+*.
 # Linker output
 *.ilk
 *.map
