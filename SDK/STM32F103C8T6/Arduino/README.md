@@ -2,10 +2,6 @@
 
 * [中文版本](./README-zh.md)
 
-## Important note
-
-The board with `WeAct` Logo && `version number` is our board, quality guarantee. The original is not easy, I hope you will support us, thank you!
-
 > STM32 Arduno Link: [STM32duino](https://github.com/stm32duino)
 
 > How to use Arduino [https://github.com/stm32duino/wiki/wiki/Getting-Started](https://github.com/stm32duino/wiki/wiki/Getting-Started)

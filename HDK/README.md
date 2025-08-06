@@ -2,9 +2,9 @@
 
 * [中文版本](./README-zh.md)
 
-## Important note
-
-The board with `WeAct` Logo && `version number` is our board, quality guarantee. The original is not easy, I hope you will support us, thank you!
+## V1.1
+1. Add a USB power input diode bypass pad
+2. Adopt the gold sinking process
 
 ## V1.0
 

@@ -1,69 +1,51 @@
-# Prerequisites
-*.d
-
-# Object files
+*.psd
 *.o
-*.ko
-*.obj
-*.elf
+.DS_Store
+*~
+.~lock*
+*.uvopt
+*.dep
+*.bak
+*.uvgui.*
+*.uvguix.*
+
+UNSupport/
+
+*.swp
+*.save
+.project
+.settings
+.cproject
+obj/
+patches/
+.idea
 *.crf
-*.htm
+*.d
 *.lnp
 
-#GD32/
-#GD32F303CCT6/
-UnProvide/
-unsupport*/
-Listings/
-DebugConfig/
-*.uvguix.*
-*.uvoptx
-*.scvd
-*.lst
-*.dep
-*.iex
-*.axf
-*.
-# Linker output
-*.ilk
-*.map
-*.exp
+# artefacts of top-level Makefile
+/downloads/
+/build/
+# local changes only
+make/local.mk
 
-# Precompiled Headers
-*.gch
-*.pch
+# artefacts for VisualGDB (running in Visual Studio)
+mcu.mak
+mcu.mak.old
+stm32.mak
 
-# Libraries
-*.lib
-*.a
-*.la
-*.lo
+# eclipse launch configurations
+/support/eclipse
 
-# Shared objects (inc. Windows DLLs)
-*.dll
-*.so
-*.so.*
-*.dylib
+# ozone launch configurations
+/support/ozone
 
-# Executables
-*.exe
-*.out
-*.app
-*.i*86
-*.x86_64
-*.hex
+# artefacts for Visual Studio Code
+*.vscode/
 
-# Debug files
-*.dSYM/
-*.su
-*.idb
-*.pdb
+# artefacts for CLion
+/cmake-build-debug/
 
-# Kernel Module Compile Results
-*.mod*
-*.cmd
-.tmp_versions/
-modules.order
-Module.symvers
-Mkfile.old
-dkms.conf
+.vagrant
+ubuntu*.log
+/.vs

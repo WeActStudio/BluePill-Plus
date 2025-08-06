@@ -2,10 +2,6 @@
 
 * [Enlish version](./README.md)
 
-## 重要说明
-
-有 `WeAct` Logo && `版本号` 的板子才是我们出的，品质保证，原创不易，希望大家多多支持，谢谢!
-
 > STM32 Arduino链接: [STM32duino](https://github.com/stm32duino)
 
 > 如何安装Arduino [https://github.com/stm32duino/wiki/wiki/Getting-Started](https://github.com/stm32duino/wiki/wiki/Getting-Started)
