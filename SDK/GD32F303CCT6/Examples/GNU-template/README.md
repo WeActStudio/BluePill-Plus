@@ -77,7 +77,7 @@ This project have the same function with 01-template, you could see LED blinking
 
 ## Flash & Debug
 
-Giga Device have provided [programming software](https://github.com/WeActTC/BluePill-Plus/tree/master/Soft/GD32), support ISP, DFU, and others. You could also use [OpenOCD](http://openocd.org/) for flashing and debugging, the configuration file for STM32F3  `stm32f3x.cfg`  is compatible with GD32F3.
+Giga Device have provided [programming software](https://github.com/WeActStudio/BluePill-Plus/tree/master/Soft/GD32), support ISP, DFU, and others. You could also use [OpenOCD](http://openocd.org/) for flashing and debugging, the configuration file for STM32F3  `stm32f3x.cfg`  is compatible with GD32F3.
 
 ## Advance
 

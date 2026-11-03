@@ -25,8 +25,8 @@
  /*
   *power by WeAct Studio
   *The board with `WeAct` Logo && `version number` is our board, quality guarantee. 
-  *For more information please visit: https://github.com/WeActTC/BluePill-Plus.git
-  *更多信息请访问：https://gitee.com/WeAct-TC/BluePill-Plus
+  *For more information please visit: https://github.com/WeActStudio/BluePill-Plus.git
+  *更多信息请访问：https://gitee.com/WeActStudio/BluePill-Plus
   */
  
 // the setup function runs once when you press reset or power the board

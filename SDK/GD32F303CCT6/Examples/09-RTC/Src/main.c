@@ -1,8 +1,8 @@
 /* WeAct Studio */
 /* GD32F303CCT6 Core Board */
 /* Taobao: https://weactstudio.taobao.com */
-/* Github: https://github.com/WeActTC */
-/* Gitee:  https://gitee.com/WeAct-TC */
+/* Github: https://github.com/WeActStudio */
+/* Gitee:  https://gitee.com/WeActStudio */
 
 #include "gd32f30x.h"
 #include <stdio.h>
